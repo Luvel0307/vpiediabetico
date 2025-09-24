@@ -1,7 +1,7 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { evaluarRiesgo } from '@/lib/fuzzy-logic';
-import { prisma } from '@/lib/db';
+import { prisma } from '@/lib/prisma-singleton';
 
 export const dynamic = "force-dynamic";
 
